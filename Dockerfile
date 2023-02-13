@@ -1,4 +1,4 @@
-FROM amazoncorretto:11-alpine-jdk
-MAINTAINER MGB
-COPY target/mgb-0.0.1-SNAPSHOT.jar  mgb-app.jar
-ENTRYPOINT ["java","-jar","/mgb-app.jar"]
+FROM amazoncorretto:8-alpine-jdk
+MAINTAINER DG
+COPY target/dg-0.0.1-SNAPSHOT.jar  dg-app.jar
+ENTRYPOINT ["java","-jar","/dg-app.jar"]
