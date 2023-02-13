@@ -1,4 +1,4 @@
 FROM amazoncorretto:8-alpine-jdk
-MAINTAINER DG
-COPY target/dg-0.0.1-SNAPSHOT.jar  dg-app.jar
-ENTRYPOINT ["java","-jar","/dg-app.jar"]
+MAINTAINER IsaacGuerrero
+COPY target/josue-0.0.1-SNAPSHOT.jar josue-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/josue-0.0.1-SNAPSHOT.jar"]
